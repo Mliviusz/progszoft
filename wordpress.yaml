@@ -12,3 +12,8 @@ spec:
         name: bitnami-repo
       version: "15.2.12"
   interval: 60m0s
+  values:
+    service:
+      type: ClusterIP
+    wordpressPassword: "123456"
+    wordpressBlogName: This
