@@ -12,6 +12,6 @@ spec:
         name: bitnami-repo
       version: ">=11.0.0"
   interval: 60m0s
-values:
-  service:
-    type: ClusterIP
+  values:
+    service:
+      type: ClusterIP

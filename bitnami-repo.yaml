@@ -4,5 +4,5 @@ metadata:
   name: bitnami-repo
   namespace: default
 spec:
-  interval: 30m0s
+  interval: 180m0s
   url: https://charts.bitnami.com/bitnami

@@ -10,5 +10,5 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: bitnami-repo
-      version: ">=6.0.0"
+      version: "15.2.12"
   interval: 60m0s
