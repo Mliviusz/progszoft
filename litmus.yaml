@@ -1,0 +1,15 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: chaos
+  namespace: litmus
+spec:
+  chart:
+    spec:
+      chart: litmuschaos/litmus
+      sourceRef:
+        kind: HelmRepository
+        name: litmus-repo
+  interval: 60m0s
+  values:
+    portal.frontend.service.type: NodePort

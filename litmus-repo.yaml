@@ -1,0 +1,8 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: HelmRepository
+metadata:
+  name: litmus-repo
+  namespace: litmus
+spec:
+  interval: 180m0s
+  url: https://litmuschaos.github.io/litmus-helm/
