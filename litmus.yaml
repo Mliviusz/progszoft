@@ -10,6 +10,6 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: litmus-repo
-  interval: 60m0s
+  interval: 5m0s
   values:
     portal.frontend.service.type: NodePort
