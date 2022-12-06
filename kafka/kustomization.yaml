@@ -3,3 +3,4 @@ kind: Kustomization
 namespace: kafka
 resources:
 - kafka-deployments.yaml
+- kafka-persistent.yaml
